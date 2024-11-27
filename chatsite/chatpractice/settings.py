@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "channels",
     "main",
     "user",
     "chat",
@@ -74,6 +75,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "chatpractice.wsgi.application"
+ASGI_APPLICATION = "chatpractice.asgi.application"
 
 
 # Database
